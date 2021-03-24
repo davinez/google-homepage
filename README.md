@@ -20,7 +20,6 @@ Use of nested elements for easy editing in css and reading by the web browser
 -Structure and design of elements in CSS using classes and IDs.
 -Types of layouts and their positioning
 
-Translated with www.DeepL.com/Translator (free version)
 
 
 
