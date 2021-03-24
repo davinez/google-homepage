@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/main.css">
-    <meta charset="utf-8">
-    <title>Google Homepage Project</title>
-  </head>
-  <body>
 
-    <div class="header-options">
-      <p>About</p>
-      <p>Store</p>
+<head>
+  <link rel="stylesheet" href="assets/main.css">
+  <!--<link rel="stylesheet" href="assets/reset.css"> -->
+  <meta charset="utf-8">
+  <title>Google Homepage Project</title>
+</head>
 
-      <p>Gmail</p>
-      <p>Images</p>
-      <button></button>
-      <button>Sign in</button>
-    </div>
-    
-     <div class="central-form">
-       <p>Google</p>
+<body>
+  <header>
+    <nav>
+      <ul class="header-navbar">
+        <li><a class="header-navbar-left" href="#about">About</a></li>
+        <li><a class="header-navbar-left" href="#store">Store</a></li>
+        <li><a class="header-navbar-right" href="#gmail">Gmail</a></li>
+        <li><a class="header-navbar-right" href="#images">Images</a></li>
+        <li><a class="header-navbar-right" href="#apps"></a></a></li>
+        <li><a class="header-navbar-right" href="#apps">Sign in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="central">
+      <p id="logo">Google</p>
       <input type="text" id="search">
-      <button>Google Search</button>
-      <button>I'm Feeling Lucky</button> 
-     </div>
-        
-      <div class="footer-options">
-      <p>Advertising</p>
-      <p>Business</p>
-      <p>How Search works</p>
+      <input class="central-buttons" type="submit" value="Google Search">
+      <input class="central-buttons" type="submit" value="I'm Feeling Lucky">
+    </div>
+  </main>
 
-      <p>Privacy</p>
-      <p>Terms</p>
-      <p>Settings</p>
-      </div>
-  </body>
+  <footer>
+    <nav>
+      <ul class="footer-navbar">
+        <li><a class="footer-navbar-left" href="#advertising">Advertising</a></li>
+        <li><a class="footer-navbar-left" href="#business">Business</a></li>
+        <li><a class="footer-navbar-left" href="#works">How Search works</a></li>
+        <li><a class="footer-navbar-right" href="#privacy">Privacy</a></li>
+        <li><a class="footer-navbar-right" href="#terms">Terms</a></li>
+        <li><a class="footer-navbar-right" href="#settings">Settings</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
 </html>
-
